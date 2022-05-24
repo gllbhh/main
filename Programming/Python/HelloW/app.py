@@ -1,8 +1,4 @@
-def multiply(*numbers):
-    total = 1
-    for number in numbers:
-        total *= number
-    return total
+list1 = [1, 2, 3]
+list2 = [10, 20, 30]
 
-
-print(multiply(2, 3, 4, 5))
+print(list(zip("abc", list1, list2)))
