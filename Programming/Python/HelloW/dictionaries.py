@@ -13,3 +13,15 @@ print(point)
 
 for key in point:
     print(key, point[key])
+
+
+# list comprehensions
+# values = []
+# for x in range(5):
+#     values.append(x*2)
+
+# does absolutely the same as 3 lines above// list
+values = [x*2 for x in range(5)]
+
+values = {x: x*2 for x in range(5)}  # dictionary
+print(values)
