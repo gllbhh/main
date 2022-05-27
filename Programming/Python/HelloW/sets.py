@@ -1,14 +1,14 @@
-# sets
-numbers = [1, 1, 2, 3, 4]
-uniques = set(numbers)  # set removes duplicates from a list
-second = {1, 4}
-second.add(5)
-second.add(6)
-second.remove(1)
-print(len(second))
-print(second)
+# # sets
+# numbers = [1, 1, 2, 3, 4]
+# uniques = set(numbers)  # set removes duplicates from a list
+# second = {1, 4}
+# second.add(5)
+# second.add(6)
+# second.remove(1)
+# print(len(second))
+# print(second)
 
-print(type(uniques))
+# print(type(uniques))
 
 
 numbers = [1, 1, 2, 3, 4]
